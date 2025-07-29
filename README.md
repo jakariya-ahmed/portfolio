@@ -43,4 +43,14 @@ cd your-portfolio
 ```bash
 npm install
 ```
+3️⃣ Run the app locally:
+
+```bash
+npm run dev
+```
+### 📦 Deployment:
+-Deploy it easily on:
+-![Vercel](./(https://vercel.com/))
+-![Netlify](./https://netlify.com/)
+
 
