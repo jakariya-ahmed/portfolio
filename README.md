@@ -38,7 +38,7 @@ A modern, responsive portfolio website built with **React** and **Tailwind CSS**
 ```bash
 git clone https://github.com/your-username/your-portfolio.git
 cd your-portfolio
-
+```bash
 
 > ✅ **Important**: You must use **three backticks (```)** before and after the code block, and add `bash` immediately after the first backticks to enable syntax highlighting.
 
