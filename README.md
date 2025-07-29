@@ -39,3 +39,13 @@ A modern, responsive portfolio website built with **React** and **Tailwind CSS**
 git clone https://github.com/your-username/your-portfolio.git
 cd your-portfolio
 
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
