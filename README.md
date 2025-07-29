@@ -54,3 +54,17 @@ npm run dev
 -![Netlify](./https://netlify.com/)
 
 
+
+---
+
+### ✅ Tips:
+
+- Replace `screenshot.png` with an actual screenshot of your portfolio.
+- Fill in your **live site link** and **GitHub repo URL**.
+- You can also add GitHub badges, like deploy status, tech used, etc.
+
+---
+
+Would you like help writing a **custom "Projects" section** in the README that lists all your portfolio projects with live links and short descriptions?
+
+
