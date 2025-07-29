@@ -26,29 +26,30 @@ A modern, responsive portfolio website built with **React** and **Tailwind CSS**
 | JSX      | CSS Modules (optional) | - |
 
 ---
-
-## 📁 Folder Structure
+<details> <summary>📁 Folder Structure</summary>
 
 my-portfolio/
 ├── public/
-│ ├── index.html
-│ └── assets/
+│   ├── index.html
+│   └── assets/
 ├── src/
-│ ├── components/
-│ │ ├── Header.jsx
-│ │ ├── Hero.jsx
-│ │ ├── Projects.jsx
-│ │ ├── Contact.jsx
-│ │ └── Footer.jsx
-│ ├── data/ # Project data or config
-│ ├── App.jsx
-│ ├── index.js
-│ └── styles/
-│ └── tailwind.css
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── data/              # Project data or config
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+│       └── tailwind.css
 ├── .gitignore
 ├── package.json
 ├── tailwind.config.js
 └── README.md
+
+</details>
 
 
 ---
