@@ -26,30 +26,7 @@ A modern, responsive portfolio website built with **React** and **Tailwind CSS**
 | JSX      | CSS Modules (optional) | - |
 
 ---
-<details> <summary>📁 Folder Structure</summary>
 
-my-portfolio/
-├── public/
-│   ├── index.html
-│   └── assets/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   ├── data/              # Project data or config
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-│       └── tailwind.css
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-└── README.md
-
-</details>
 
 
 ---
@@ -62,20 +39,3 @@ my-portfolio/
 git clone https://github.com/your-username/your-portfolio.git
 cd your-portfolio
 
-2️⃣ Install dependencies:
-
-npm install
-
-3️⃣ Run the app locally:
-
-npm run dev
-
-📦 Deployment
-
-Deploy it easily on:
-
-    Vercel
-
-    Netlify
-
-    GitHub Pages (for static build)
