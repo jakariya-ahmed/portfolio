@@ -40,12 +40,14 @@ git clone https://github.com/your-username/your-portfolio.git
 cd your-portfolio
 
 
+> ✅ **Important**: You must use **three backticks (```)** before and after the code block, and add `bash` immediately after the first backticks to enable syntax highlighting.
+
 ---
 
-## 🚀 Getting Started
+## 💡 Example:
 
-### 1️⃣ Clone the repository:
+### 🔧 Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+npm install
+
