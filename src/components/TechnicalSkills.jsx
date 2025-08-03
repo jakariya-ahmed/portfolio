@@ -1,9 +1,10 @@
 import { Cpu, Server, Monitor} from "lucide-react";
 
 export default function TechnicalSkills() {
-
-
-
+// HTML, CSS, Bootstrap, JavaScript, React.js, TypeScript, Tailwindcss
+    const frontSkills = ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React.js', 'TypeScript', 'Tailwindcss'];
+    const backSkills = ['PHP', 'Laravel', 'Mysql', 'Wordpress'];
+    const tools = ['AWS', 'Git & github', 'NPM', 'Yarn', 'VS Code', 'Vite'];
     return (
         <div className="container">
             <h1 className="text-white mb-4">Technologies Area </h1>
@@ -16,8 +17,17 @@ export default function TechnicalSkills() {
                     </div>
                     {/* Education  */}
                     <div className="text-left space-y-2">
-                            <h3 className="text-white text-xl sm:text-2xl ">Frontend Development</h3>
-                            <p className="secondary-heading text-sm text-normal">HTML, CSS, Bootstrap, JavaScript, React.js, TypeScript, Tailwindcss</p>
+                            <h3 className="text-white text-xl sm:text-2xl my-2">Frontend Development</h3>
+                            
+                        <div className="w-full flex flex-wrap gap-2">
+                            {frontSkills.map(skill => (
+                                <span 
+                                className="text-xs border border-secondary rounded-full px-2 py-1 text-heading
+                                    hover:text-secondary hover:border-white transition
+                                ">{skill}</span>
+                            ))
+                            }
+                        </div>
                     </div>
                 </div>
                 <div className="card">
@@ -27,8 +37,16 @@ export default function TechnicalSkills() {
                     </div>
                     {/* Education  */}
                     <div className="text-left space-y-2">
-                            <h3 className="text-white text-xl sm:text-2xl ">Backend Development</h3>
-                            <p className="secondary-heading text-sm text-normal">PHP, Laravel, MySql, WordPress</p>
+                            <h3 className="text-white text-xl sm:text-2xl my-2">Backend Development</h3>
+                            <div className="w-full flex flex-wrap gap-2">
+                            {backSkills.map(skill => (
+                                <span 
+                                className="text-xs border border-secondary rounded-full px-2 py-1 text-heading
+                                    hover:text-secondary hover:border-white transition
+                                ">{skill}</span>
+                            ))
+                            }
+                        </div>
 
                     </div>
                 </div>
@@ -40,8 +58,16 @@ export default function TechnicalSkills() {
                     </div>
                     {/* Education  */}
                     <div className="text-left space-y-2">
-                            <h3 className="text-white text-xl sm:text-2xl ">Cloud Server & Tools</h3>
-                            <p className="secondary-heading text-sm text-normal">AWS, VS Code, Git & Github</p>
+                            <h3 className="text-white text-xl sm:text-2xl my-2">Cloud Server & Tools</h3>
+                            <div className="w-full flex flex-wrap gap-2">
+                            {tools.map(tool => (
+                                <span 
+                                className="text-xs border border-secondary rounded-full px-2 py-1 text-heading
+                                    hover:text-secondary hover:border-white transition
+                                ">{tool}</span>
+                            ))
+                            }
+                        </div>
 
                     </div>
                 </div>

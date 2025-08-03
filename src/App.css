@@ -70,7 +70,12 @@
     @apply text-2xl text-heading sm:text-xl font-secondary;
   }
 
+  .custom-list li::marker {
+    color: var(--color-heading);
+  }
 
+
+  
 }
 
  /* BASE  */
@@ -89,7 +94,13 @@
   }
 }
 
-
+/* UTILITIES  */
+@layer utilities {
+  
+  .custom-list li::marker {
+    color: var(--color-heading)
+  }
+}
 
 
 

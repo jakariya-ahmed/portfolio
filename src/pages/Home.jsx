@@ -1,5 +1,6 @@
 import AboutUs from "../components/AboutUsCom";
 import Education from "../components/EducationCom";
+import Experience from "../components/ExperienceCom";
 import Hero from "../components/HeroCom";
 import TechnicalSkills from "../components/TechnicalSkills";
 import ThemeToggle from "../components/ThemeToggle";
@@ -10,15 +11,20 @@ export default function Home() {
             
         {/* Hero Section */}
         <Hero />
+        
         {/* About  */}
-
         <AboutUs />
 
         {/* Education @ Qualification  */}
         <Education />
+
         {/* Tehnical Skills */}
         <TechnicalSkills />
 
+        {/* Experiences  */}
+        <Experience />
+
+        
         {/* Footer  */}
         </div>
     );
