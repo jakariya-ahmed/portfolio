@@ -12,7 +12,7 @@ export default function Experience() {
             <div className="card text-left">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">At Genatech</h3>
-                    <p className="secondary-heading text-sm"> Feb 2024 – May 2024 </p>
+                    <p className="secondary-heading text-sm"> Feb 2025 – At Present </p>
                 </div>
                 
                 <div className="mb-4">
@@ -26,14 +26,12 @@ export default function Experience() {
                         
                         <li className="text-heading text-[16px]">Implemented responsive grid layouts for better mobile usability</li>
                         <li className="text-heading text-[16px]">Integrated Chart.js for real-time sales analytics</li>
-                        <li className="text-heading text-[16px]"></li>
                     </ul>
                     <p className="secondary-heading text-secondary my-2">Team Tasks:</p>
                     <ul className="list-disc list-inside custom-list">
                         <li className="text-heading text-[16px]">Collaborated with 1 UI/UX designer and 2 backend engineers</li>
                         <li className="text-heading text-[16px]">Synced product updates via <span className="text-secondary">REST APIs using Axios</span></li>
                         <li className="text-heading text-[16px]">Participated in weekly sprint reviews and code reviews</li>
-                        <li className="text-heading text-[16px]"></li>
                     </ul>
 
                     <p className="secondary-heading text-secondary my-2">Sovling Problem:</p>
@@ -50,7 +48,7 @@ export default function Experience() {
             <div className="card text-left">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">PixelMart Inc.</h3>
-                    <p className="secondary-heading text-sm"> Feb 2024 – May 2024 </p>
+                    <p className="secondary-heading text-sm"> June 2024 – December 2024 </p>
                 </div>
                 
                 <div className="mb-4">
@@ -64,14 +62,12 @@ export default function Experience() {
                         
                         <li className="text-heading text-[16px]">Created reusable components for lesson cards, progress bars, and alerts</li>
                         <li className="text-heading text-[16px]">Styled everything using TailwindCSS utility classes with dark/light mode support</li>
-                        <li className="text-heading text-[16px]"></li>
                     </ul>
                     <p className="secondary-heading text-secondary my-2">Team Tasks:</p>
                     <ul className="list-disc list-inside custom-list">
                         <li className="text-heading text-[16px]">Worked in an <span className="text-secondary">Agile team</span> of 4 developers and 1 QA tester</li>
                         <li className="text-heading text-[16px]">Maintained Git branches and feature merges using <span className="text-secondary">GitHub</span></li>
                         <li className="text-heading text-[16px]">Integrated course data from a <span className="text-secondary"> Laravel backend</span></li>
-                        <li className="text-heading text-[16px]"></li>
                     </ul>
 
                     <p className="secondary-heading text-secondary my-2">Sovling Problem:</p>
@@ -88,7 +84,7 @@ export default function Experience() {
             <div className="card text-left">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">Softovate Technologies</h3>
-                    <p className="secondary-heading text-sm"> Feb 2024 – May 2024 </p>
+                    <p className="secondary-heading text-sm"> December 23 – May 2024 </p>
                 </div>
                 
                 <div className="mb-4">
@@ -123,7 +119,7 @@ export default function Experience() {
             <div className="card text-left">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">SmartICT</h3>
-                    <p className="secondary-heading text-sm"> Feb 2024 – May 2024 </p>
+                    <p className="secondary-heading text-sm"> April 2022 – Nov 23 </p>
                 </div>
                 
                 <div className="mb-4">
