@@ -23,5 +23,4 @@ export default function Hero() {
     );
 }
 
-
 // #64FFDA33
