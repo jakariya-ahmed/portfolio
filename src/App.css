@@ -80,7 +80,7 @@
 
  /* BASE  */
 @layer base {
-  body, h3{
+  body, h3, li, a, span, p, label, input{
     @apply font-secondary;
   }
 
