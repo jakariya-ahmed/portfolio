@@ -71,7 +71,7 @@ return (
             <div className="p-5">
               <h3 className="text-xl text-white font-semibold">{project.title}</h3>
 
-              <p className="text-sm text-gray-300 mt-2">{project.description}</p>
+              <p className="text-sm text-heading mt-2">{project.description}</p>
 
               <div className="flex flex-wrap gap-2 mt-3">
                 {project.tech.map((tech, i) => (
@@ -90,7 +90,7 @@ return (
                   href={project.liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 text-sm text-white bg-blue-600 rounded hover:bg-blue-700 transition"
+                  className="px-6 py-2 text-sm text-white bg-button rounded-full hover:bg-secondary transition"
                 >
                   Live
                 </a>
@@ -98,7 +98,7 @@ return (
                   href={project.sourceLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 text-sm text-white border border-white/20 hover:border-white hover:bg-white/10 transition rounded"
+                  className="px-6 py-2 text-sm text-white border border-white/20 hover:border-white hover:bg-white/10 transition rounded-full"
                 >
                   Source
                 </a>
