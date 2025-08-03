@@ -1,6 +1,100 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@theme {
+  /* ------------------- COLORS   ------------------- */
+  --color-primary: oklch(0.28 0.0321 249.75 / 99.82%); /* bg-color*/ 
+  --color-secondary: oklch(0.7548 0.1124 178.81 / 89.79%); /* hover-bg */
+  --color-button: oklch(0.8795 0.1664 174.34 / 27.84%); /* button bg*/
+  --color-heading: oklch(0.9091 0 0 / 76.81%); /* secondary heding color*/
+
+  /*-------------------  FONTS  ------------------- */
+  --font-secondary: "Inter", sans-serif;
+  --font-primary: 'Fira Code', monospace;
+
+  /*-------------------  SPACING TOKESN  ------------------- */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space--lg: 2rem
+  --space-xl: 4rem;
+
+  /*-------------------  BORDER RADIUS ------------------- */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+
+
+  /*-------------------  SHADOWS  ------------------- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0px 10pb 15px rgba(0, 0, 0, 0.2);
+
+
+/*-------------------  ANIMATIONS ------------------- */
+  @keyframes fade-in {
+    0% { opacity: 0;}
+    100% { opacity: 1}
+  }
+
+  @keyframes slide-up {
+    0% {opacity: 0; transform: translateY(10px)}
+    100% { opacity: 1; transform: translateY(0) }
+  }
+
 }
+
+
+
+/* COMONENTS  */
+@layer components {
+  .btn {
+    @apply bg-button p-4 rounded cursor-pointer hover:text-primary text-heading 
+    transition font-secondary;
+  }
+
+  .card {
+    @apply mt-10 rounded-sm bg-white/10 backdrop-blur-lg p-8;
+  }
+
+  .container {
+    @apply max-w-7xl my-10 px-6 py-8 rounded-md mx-auto text-center ;
+  }
+  
+  .primary-heading{
+    @apply text-4xl sm:text-5xl;
+  }
+
+  .secondary-heading{
+    @apply text-2xl text-heading sm:text-xl font-secondary;
+  }
+
+
+}
+
+ /* BASE  */
+@layer base {
+  body, h3{
+    @apply font-secondary;
+  }
+
+  p{
+    @apply text-lg font-normal
+  }
+
+
+  h1 {
+    @apply text-3xl text-secondary sm:text-4xl font-bold tracking-wider font-primary;
+  }
+}
+
+
+
+
+
+
+
+
+
+
