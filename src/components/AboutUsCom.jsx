@@ -5,9 +5,9 @@ export default function AboutUs() {
             <h1 className="text-white mb-4 ">About Me</h1>
             <p className='secondary-heading font-normal'>Frontend Developer Specializing in JS & React</p>
 
-            <div className="card flex flex-col sm:flex-row sm:gap-x-6 justify-between items-center">
+            <div className="card flex flex-col sm:flex-row p-4 py-6 text-sm sm:text-lg sm:p-6 sm:gap-x-6 justify-between items-center">
                 {/* Profile Photo */}
-                <div className='w-80 sm:w-70 md:w-50 mb-0 sm:mb-6'>
+                <div className='w-50 sm:w-70 md:w-50 mb-0 sm:mb-6'>
                     <img
                     src={Image}
                     alt="Profile"

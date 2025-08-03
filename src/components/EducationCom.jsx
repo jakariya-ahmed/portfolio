@@ -25,7 +25,7 @@ export default function Education() {
             <p className='secondary-heading font-normal'>Frontend Developer Specializing in React & Modern UX</p>
         {
             educations.map(education => (
-                <div className="card flex gap-x-6">
+                <div className="card flex flex-col sm:flex-row gap-x-6">
                 {/* Icon  */}
                 <div>
                         <GraduationCap size={60} strokeWidth={1} className="text-button" />
