@@ -65,7 +65,7 @@ export default function Experience() {
             </div>
 
             {/* Experience 02:  */}
-            <div className="card text-left">
+            <div className="card text-left p-4 py-6  sm:p-6">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">PixelMart Inc.</h3>
                     <p className="secondary-heading text-sm"> June 2024 – December 2024 </p>
@@ -119,7 +119,7 @@ export default function Experience() {
             </div>
 
             {/* Experience 03:  */}
-            <div className="card text-left">
+            <div className="card text-left p-4 py-6  sm:p-6">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">Softovate Technologies</h3>
                     <p className="secondary-heading text-sm"> December 23 – May 2024 </p>
@@ -169,7 +169,7 @@ export default function Experience() {
                 </div>
             </div>
 
-            <div className="card text-left">
+            <div className="card text-left p-4 py-6  sm:p-6">
                 <div className="flex justify-between items-center">
                     <h3 className="text-white text-xl sm:text-2xl ">SmartICT</h3>
                     <p className="secondary-heading text-sm"> April 2022 – Nov 23 </p>

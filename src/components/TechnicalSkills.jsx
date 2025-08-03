@@ -10,7 +10,7 @@ export default function TechnicalSkills() {
             <h1 className="text-white mb-4">Technologies Area </h1>
             <p className='secondary-heading font-normal'>Frontend Developer Specializing in React & Modern UX</p>
             <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 gap-x-6">
-                <div className="card">
+                <div className="card p-4 py-6  sm:p-6">
                     {/* Icon  */}
                     <div>
                             <Monitor size={60} strokeWidth={1} className="text-button" />
@@ -30,7 +30,7 @@ export default function TechnicalSkills() {
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card p-4 py-6  sm:p-6">
                     {/* Icon  */}
                     <div>
                             <Server size={60} strokeWidth={1} className="text-button" />
@@ -51,7 +51,7 @@ export default function TechnicalSkills() {
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card p-4 py-6  sm:p-6">
                     {/* Icon  */}
                     <div>
                             <Cpu size={60} strokeWidth={1} className="text-button" />
