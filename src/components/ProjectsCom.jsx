@@ -9,7 +9,7 @@ const projects = [
   {
     title: "LightShop E-commerce Functional Web App.",
     image: img,
-    description: "A personal portfolio to showcase development skills, projects, and resume.",
+    description: "LightShop is a fully functional, modern e-commerce web application built with React. It features dynamic product browsing, category filtering, cart management, and user authentication.",
     tech: ["JavaScript (ES6+)", "React", "Tailwind CSS", "Framer Motion", 'Lucide-icon', 'React Router', 'React Context API', 'Custom Hook'],
     liveLink: "https://ecommerce-cyan-three-13.vercel.app/",
     sourceLink: "https://github.com/jakariya-ahmed/ecommerce",
