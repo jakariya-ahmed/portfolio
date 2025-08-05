@@ -1,5 +1,5 @@
 import Image from '../assets/img/jakariya.jpg';
-import img from '../assets/img/img.jpg';
+import img from '../assets/img/ecom.png';
 import img2 from '../assets/img/img-1.jpg';
 import img3 from '../assets/img/img-2.jpg';
 import img4 from '../assets/img/img-3.jpg';
@@ -7,12 +7,12 @@ import img5 from '../assets/img/img-4.jpg';
 
 const projects = [
   {
-    title: "Portfolio Website",
+    title: "LightShop E-commerce Functional Web App.",
     image: img,
     description: "A personal portfolio to showcase development skills, projects, and resume.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    liveLink: "https://your-portfolio.com",
-    sourceLink: "https://github.com/your-username/portfolio",
+    tech: ["JavaScript (ES6+)", "React", "Tailwind CSS", "Framer Motion", 'Lucide-icon', 'React Router', 'React Context API', 'Custom Hook'],
+    liveLink: "https://ecommerce-cyan-three-13.vercel.app/",
+    sourceLink: "https://github.com/jakariya-ahmed/ecommerce",
   },
   {
     title: "E-Commerce Store",
