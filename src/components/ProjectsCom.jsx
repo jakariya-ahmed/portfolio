@@ -17,7 +17,7 @@ const projects = [
   {
     title: "E-Commerce Store",
     image: img2,
-    description: "is a fully functional, modern e-commerce web application built with React. It features dynamic product browsing, category filtering, cart management, and user authentication.",
+    description: "LightShop is a fully functional, modern e-commerce web application built with React. It features dynamic product browsing, category filtering, cart management, and user authentication.",
     tech: ["Next.js", "Tailwind CSS", "Stripe"],
     liveLink: "https://your-ecommerce.com",
     sourceLink: "https://github.com/your-username/ecommerce-store",
