@@ -4,8 +4,17 @@ import img2 from '../assets/img/img-1.jpg';
 import img3 from '../assets/img/img-2.jpg';
 import img4 from '../assets/img/img-3.jpg';
 import img5 from '../assets/img/img-4.jpg';
+import img6 from '../assets/img/Shop-Smart.png';
 
 const projects = [
+  {
+    title: "Shop Smart E-commerce Full Functional App",
+    image: img6,
+    description: "Shop Smart is a fully functional, modern e-commerce web application built with React. It features dynamic product browsing, category filtering, cart management, and user authentication.",
+    tech: ["JavaScript (ES6+)", "React", "Tailwind CSS", "Framer Motion", 'Lucide-icon', 'React Router', 'React Context API', 'Custom Hook'],
+    liveLink: "https://tiny-projects-steel.vercel.app/",
+    sourceLink: "https://github.com/jakariya-ahmed/tiny-projects/tree/main/react-core",
+  },
   {
     title: "LightShop E-commerce Functional Web App.",
     image: img,
