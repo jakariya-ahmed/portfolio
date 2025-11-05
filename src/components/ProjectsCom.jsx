@@ -20,7 +20,7 @@ const projects = [
     title: "E-Commerce Admin Panel",
     image: img2,
     description: "Built a secure and responsive admin authentication system with email/password validation using React Router and localStorage. Implemented dynamic form handling, reusable input components, and smooth navigation with protected route logic for admin dashboard access.",
-    tech: ["React.js", "Tailwind CSS", "Stripe"],
+    tech: ["JavaScript (ES6+)", "React", "Tailwind CSS", "Framer Motion", 'Lucide-icon', 'React Router', 'React Context API', 'Custom Hook', 'Dummy JSON'],
     liveLink: "https://react-admin2-psi.vercel.app/",
     sourceLink: "https://github.com/jakariya-ahmed/react-admin2",
   },
