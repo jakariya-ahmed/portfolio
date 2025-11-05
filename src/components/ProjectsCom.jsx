@@ -1,6 +1,6 @@
 import Image from '../assets/img/jakariya.jpg';
 import img from '../assets/img/ecom.png';
-import img2 from '../assets/img/img-1.jpg';
+import img2 from '../assets/img/ecom-dashboard.png';
 import img3 from '../assets/img/img-2.jpg';
 import img4 from '../assets/img/img-3.jpg';
 import img5 from '../assets/img/img-4.jpg';
@@ -15,47 +15,16 @@ const projects = [
     liveLink: "https://tiny-projects-steel.vercel.app/",
     sourceLink: "https://github.com/jakariya-ahmed/tiny-projects/tree/main/react-core",
   },
+
   {
-    title: "LightShop E-commerce Functional Web App.",
-    image: img,
-    description: "LightShop is a fully functional, modern e-commerce web application built with React. It features dynamic product browsing, category filtering, cart management, and user authentication.",
-    tech: ["JavaScript (ES6+)", "React", "Tailwind CSS", "Framer Motion", 'Lucide-icon', 'React Router', 'React Context API', 'Custom Hook'],
-    liveLink: "https://ecommerce-cyan-three-13.vercel.app/",
-    sourceLink: "https://github.com/jakariya-ahmed/ecommerce",
-  },
-  {
-    title: "E-Commerce Store",
+    title: "E-Commerce Admin Panel",
     image: img2,
-    description: "LightShop is a fully functional, modern e-commerce web application built with React. It features dynamic product browsing, category filtering, cart management, and user authentication.",
-    tech: ["Next.js", "Tailwind CSS", "Stripe"],
-    liveLink: "https://your-ecommerce.com",
-    sourceLink: "https://github.com/your-username/ecommerce-store",
+    description: "Built a secure and responsive admin authentication system with email/password validation using React Router and localStorage. Implemented dynamic form handling, reusable input components, and smooth navigation with protected route logic for admin dashboard access.",
+    tech: ["React.js", "Tailwind CSS", "Stripe"],
+    liveLink: "https://react-admin2-psi.vercel.app/",
+    sourceLink: "https://github.com/jakariya-ahmed/react-admin2",
   },
-  {
-    title: "Blog Platform",
-    image: img3,
-    description: "A full-featured blog with markdown editor, comments, and authentication.",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    liveLink: "https://your-blog.com",
-    sourceLink: "https://github.com/your-username/blog-platform",
-  },
-    {
-    title: "Blog Platform",
-    image: img4,
-    description: "A full-featured blog with markdown editor, comments, and authentication.",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    liveLink: "https://your-blog.com",
-    sourceLink: "https://github.com/your-username/blog-platform",
-  },
-  ,
-    {
-    title: "Blog Platform",
-    image: img5,
-    description: "A full-featured blog with markdown editor, comments, and authentication.",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    liveLink: "https://your-blog.com",
-    sourceLink: "https://github.com/your-username/blog-platform",
-  },
+    
 ];
 
 
